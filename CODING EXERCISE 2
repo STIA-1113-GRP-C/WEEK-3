@@ -1,0 +1,20 @@
+package numericalData;
+
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double radius = 3.5, height = 10.5, surfaceArea, baseArea, volume;
+		
+		surfaceArea = 0.5 * 3.142 * height * height;
+		baseArea = 0.5 * 3.142 * radius * radius;
+		volume = 3.142 * radius * radius * height;
+		
+		System.out.println("The area of cylinder surface is " + surfaceArea);
+		System.out.println("The area of cylinder base is " + baseArea);
+		System.out.print("The volume of cylinder is " + volume);
+		
+
+	}
+
+}
